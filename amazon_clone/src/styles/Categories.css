@@ -1,0 +1,18 @@
+/* Styles for Categories */
+.categories {
+    padding: 20px;
+}
+
+.category-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.category {
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+    border: 1 px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
