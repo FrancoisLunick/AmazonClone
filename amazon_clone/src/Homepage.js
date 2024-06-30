@@ -11,7 +11,7 @@ import Categories from './components/Categories';
  */
 export default function Homepage() {
   return (
-    <div className='homepage'>Homepage
+    <div className='homepage'>
       <NavigationBar/>
       <header>
         <h1>Amazon</h1>
