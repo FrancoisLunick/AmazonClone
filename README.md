@@ -48,9 +48,9 @@ This project is a clone of the Amazon homepage built using React. It includes va
 
 5. Open your browser and navigate to `http://localhost:3000` to view the application.
 
-Contributing
+## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+Contributions are welcome! Please open an issue or submit a pull request for any bugs or features.
 
 	1.	Fork the Project
 	2.	Create your Feature Branch (git checkout -b feature/NewFeature)
