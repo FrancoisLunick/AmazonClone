@@ -19,3 +19,7 @@ main {
         flex-direction: column;
     }
 }
+/* Styles for Landingpage */
+.Landingpage {
+    text-align: center; 
+}
