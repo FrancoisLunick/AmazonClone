@@ -1,0 +1,78 @@
+/* ========================================================================
+   STYLES FOR THE SEARCH BAR
+   ======================================================================== */
+/* Search bar container */
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 100%;
+}
+
+/* Search input field */
+.search-bar input {
+    padding: 10px;
+    width: 800px;
+    height: 24px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+/* Search category dropdown */
+.search-category {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    background-color: #f0f0f0;
+    height: 46px;
+    width: 60px;
+}
+
+/* Search button */
+.search-bar button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #f0c14b;
+    border-left: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Search icon */
+.search-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.search-bar button:hover {
+    background-color: #c09a3c;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .search-bar {
+      width: 100%;
+    }
+
+    .search-category, .search-bar input, .search-bar button {
+        width: auto;
+    }
+    
+    .search-category .search-bar button {
+        width: 50px;
+    }
+
+    search-bar input {
+        max-width: none;
+        flex-grow: 1;
+    }
+    
+    search-bar input {
+        width: calc(100% - 110px);
+    }
+}
