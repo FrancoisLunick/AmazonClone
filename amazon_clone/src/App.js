@@ -6,13 +6,15 @@ import Login from './components/authentication/Login';
 import Productdetailspage from './components/Productdetailspage';
 import Homepage from './Homepage';
 import Cart from './components/Cart';
+import Landingpage from './Landingpage';
 
 //Routing for web pages using a component called browser router
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path='/' element={<Signup/>}/>
+        <Route path='/' element={<Landingpage/>}/>
+        <Route path='/signup' element={<Signup/>}/>
         <Route path='/login' element={<Login/>}/>
         <Route path='/homepage' element={<Homepage/>}/>
         <Route path='/productdetailspage' element={<Productdetailspage/>}/>
