@@ -1,7 +1,7 @@
 import React from 'react';
 import NavigationBar from './components/NavigationBar';
 import FeaturedProducts from './components/FeaturedProducts';
-import './styles/Homepage.css';
+import './styles/LandingPage.css';
 import Categories from './components/Categories';
 
 /**
