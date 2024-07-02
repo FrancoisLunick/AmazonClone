@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/NavigationBar.css'
+import SearchBar from '../components/SearchBar';
 
 /**
  * Renders the NavigationBar component.
@@ -11,6 +12,9 @@ export function NavigationBar() {
         <nav className='navigation-bar'>
             {/* Site title */}
             <h1>Amazon Clone</h1>
+
+            {/* Search Bar */}
+            <SearchBar/>
 
             {/* Navigation links */}
             <ul>
