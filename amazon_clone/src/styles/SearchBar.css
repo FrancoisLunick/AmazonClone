@@ -1,6 +1,9 @@
 /* ========================================================================
    STYLES FOR THE SEARCH BAR
    ======================================================================== */
+* {
+    box-sizing: border-box;
+}
 /* Search bar container */
 .search-bar {
     display: flex;
@@ -8,15 +11,17 @@
     align-items: center;
     margin: 20px;
     width: 100%;
+    box-sizing: border-box;
 }
 
 /* Search input field */
 .search-bar input {
     padding: 10px;
-    width: 800px;
-    height: 24px;
+    width: 357.62px;
+    height: 40px;
     border: 1px solid #ccc;
     border-radius: 5px 0 0 5px;
+    box-sizing: border-box;
 }
 
 /* Search category dropdown */
@@ -26,13 +31,16 @@
     border-right: none;
     border-radius: 5px 0 0 5px;
     background-color: #f0f0f0;
-    height: 46px;
+    height: 40px;
     width: 60px;
+    box-sizing: border-box;
 }
 
 /* Search button */
 .search-bar button {
-    padding: 10px 20px;
+    padding: 0;
+    width: 45px;
+    height: 40px;
     border: none;
     background-color: #f0c14b;
     border-left: none;
@@ -41,6 +49,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
 }
 
 /* Search icon */
