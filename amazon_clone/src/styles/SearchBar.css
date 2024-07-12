@@ -9,42 +9,42 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin: 1rem;
     width: 100%;
     box-sizing: border-box;
 }
 
 /* Search input field */
 .search-bar input {
-    padding: 10px;
-    width: 864.98px;
-    height: 40px;
+    padding: 0.625rem;
+    width: 54.06rem;
+    height: 2.5rem;
     border: 1px solid #ccc;
-    border-radius: 5px 0 0 5px;
+    border-radius: 0.3125rem 0 0 0.3125rem;
     box-sizing: border-box;
 }
 
 /* Search category dropdown */
 .search-category {
-    padding: 10px;
+    padding: 0.625rem;
     border: 1px solid #ccc;
     border-right: none;
-    border-radius: 5px 0 0 5px;
+    border-radius: 0.3125rem 0 0 0.3125rem;
     background-color: #f0f0f0;
-    height: 40px;
-    width: 60px;
+    height: 2.5rem;
+    width: 3.75rem;
     box-sizing: border-box;
 }
 
 /* Search button */
 .search-bar button {
     padding: 0;
-    width: 45px;
-    height: 40px;
+    width: 2.8125rem;
+    height: 2.5rem;
     border: none;
     background-color: #f0c14b;
     border-left: none;
-    border-radius: 0 5px 5px 0;
+    border-radius: 0 0.3125rem 0.3125rem 0;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -54,8 +54,8 @@
 
 /* Search icon */
 .search-icon {
-    width: 24px;
-    height: 24px;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 .search-bar button:hover {
@@ -63,25 +63,56 @@
 }
 
 /* Responsive styles */
+@media (max-width: 1200px) {
+    .search-bar input {
+        width: 40rem;
+    }
+
+    .search-category {
+        width: 3rem;
+    }
+
+    .search-bar button {
+        width: 2.5rem;
+    }
+}
+@media (max-width: 992px) {
+    .search-bar input {
+        width: 30rem;
+    }
+
+    .search-category {
+        width: 2.5rem;
+    }
+
+    .search-bar button {
+        width: 2.5rem;
+    }
+}
 @media (max-width: 768px) {
+    .search-bar input {
+        width: 20rem;
+    }
+
+    .search-category {
+        width: 2.5rem;
+    }
+
+    .search-bar button {
+        width: 2.5rem;
+    }
+}
+@media (max-width: 576px) {
     .search-bar {
-      width: 100%;
+        flex-direction: column;
     }
 
-    .search-category, .search-bar input, .search-bar button {
-        width: auto;
-    }
-    
-    .search-category .search-bar button {
-        width: 50px;
+    .search-category {
+        width: 100%;
+        margin-bottom: 0.5rem;
     }
 
-    search-bar input {
-        max-width: none;
-        flex-grow: 1;
-    }
-    
-    search-bar input {
-        width: calc(100% - 110px);
+    .search-category, .search-bar button {
+        width: 100%;
     }
 }
