@@ -20,3 +20,7 @@
     color: white;
     text-decoration: none;
 }
+
+.navigation-bar .search-bar {
+    margin-left: 0%;
+}
